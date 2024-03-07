@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><h3 id="">Pashu.Palan.com</h3></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Namvbar</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
+          </li>
+
+		   <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#scrollspyHeading2">About Us</a>
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#scrollspyHeading3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Farming Business</a></li>
+			   <li><a class="dropdown-item" href="#scrollspyHeading5">Support</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading6">Banking Lons</a></li>
+              <li>  
+            </ul>
+			 <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#scrollspyHeading7">Contect Us</a>
+          </li>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- slidebar-->
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div  id="scrollspyHeading1" class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="D:\Bootstrap\images\goat.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5  >Welcome</h5>
+        <p>Animals are Some of the greatest companions in our lives.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="D:\Bootstrep.projects\images\farm.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5> to my</h5>
+        <p>Kindness is good for the soul. When we are Kind to animals we also benefit ourselves<br>it feels to be kind.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="D:\Bootstrep.projects\images\coww.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Website</h5>
+        <p>The greatness of a nation and its moral progress can be judged by the way its animals are treated.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--About page Codding-->
+
+<div  id="scrollspyHeading2" class="row justify-content-evenly mt-4 p-2">
+<div class="col-md-3 col-5  ">
+	<img src="D:\Bootstrep.projects\images\cowww.jpg" class="img-fluid rounded" alt="">
+	 <h4 class="text-center" >COW (गाय )</h4>
+</div>
+<div class="col-md-7 ">
+	<p> गाय एक महत्त्वपूर्ण पालतू पशु है जो संसार में प्रायः सर्वत्र पाई जाती है। इससे उत्तम किस्म का दूध प्राप्त होता है। हिन्दू, गाय को 'माता' (गौमाता) कहते हैं। इसके बछड़े बड़े होकर गाड़ी खींचते हैं एवं खेतों की जुताई करते हैं। भारत में वैदिक काल से ही गाय का महत्व रहा है। आरम्भ में आदान-प्रदान एवं विनिमय आदि के माध्यम के रूप में गाय उपयोग होता था और मनुष्य की समृद्धि की गणना उसकी गोसंख्या से की जाती थी। हिन्दू धार्मिक दृष्टि से भी गाय पवित्र मानी जाती रही है तथा उसकी हत्या महापातक पापों में की जाती है।. </p>
+<a class="btn btn-primary" href="cow.html" role="button">Learn more</a>
+
+</div>
+<hr>
+<div class="row justify-content-evenly  p-2">
+	<div class="col-md-3 col-5">
+		<img src="D:\Bootstrep.projects\images\goat.jpg" class="img-fluid rounded"  alt="">
+		<h4 class="text-center">Goat (बकरी )</h4>
+	</div>
+	<div class="col-md-7 ">
+		<p>बकरी एक पालतू पशु है, जिसे दूध तथा मांस के लिये पाला जाता है। इसके अतिरिक्त इससे रेशा, चर्म, खाद एवं बाल प्राप्त होता है। विश्व में बकरियाँ पालतू व जंगली रूप में पाई जाती हैं और अनुमान है कि विश्वभर की पालतू बकरियाँ दक्षिणपश्चिमी एशिया व पूर्वी यूरोप की जंगली बकरी की एक वंशज उपजाति है। मानवों ने वरणात्मक प्रजनन से बकरियों को स्थान और प्रयोग के अनुसार अलग-अलग नस्लों में बना दिया गया है और आज दुनिया में लगभग 300 नस्लें पाई जाती हैं। भारतवर्ष में करीब 20 नस्ल की बकरियां पाई जाती है। संयुक्त राष्ट्र खाद्य एवं कृषि संगठन के अनुसार सन 2011 में दुनिया-भर में 92.4 करोड़ से अधिक बकरियाँ थीं।[1] </p>
+		<a class="btn btn-primary" href="goat.html" role="button">Learn more</a>
+
+	</div>
+
+</div>
+<hr>
+<div class="row justify-content-evenly  p-2">
+	<div class="col-md-3 col-5">
+		<img src="D:\Bootstrep.projects\images\bhes.jpg " class="img-fluid rounded"  alt="">
+		<h4 class="text-center">Buffaloes(भैंस  )</h4>
+	</div>
+	<div class="col-md-7 ">
+		<p>भैंस एक दुधारू पशु है। कुछ लोगों द्वारा भैंस का दूध गाय के दूध से अधिक पसंद किया जाता है। यह ग्रामीण भारत में बहुत उपयोगी पशु है। भैंस का रंग काला होता है भारत में मुख्यत भैंस के निम्न नस्ल/प्रकार पाए जाते हैं - मुर्रा,सुरती, जाफराबादी, मेहसाना, भदावरी,गोदावरी, नागपुरी व सांभलपुरी आदि। </p>
+		<a class="btn btn-primary" href="bafelo.html" role="button">Learn more</a>
+
+	</div>
+
+</div>
+
+<hr>
+<div class="row justify-content-evenly  p-2">
+	<div class="col-md-3 col-5">
+		<img src="D:\Bootstrep.projects\images\pig.jpg " class="img-fluid rounded"  alt="">
+		<h4 class="text-center">Pig(सूअर )</h4>
+	</div>
+	<div class="col-md-7 ">
+		<p>सूअर (Pig) या पालतू सूअर (Domestic Pig), जिसका वैज्ञानिक नाम सुस डोमेस्टिकस (Sus domesticus) है, सूइडाए कुल (वराहकुल) की एक जीववैज्ञानिक जाति है। कुछ स्रोतों के अनुसार यह जंगली सूअर की एक उपजाति है, जिसमें मानवों ने पालतूकरण द्वारा कुछ बदलाव कर दिये हैं। यह विश्वभर में पाया जाता है।
+
+सूअर एक ऐसा जानवर है जो जुगाली / पागुर नही करता है, इसका स्वभाव गंदे जगह में रहना है। </p>
+		<a class="btn btn-primary" href="pig.html" role="button">Learn more</a>
+
+	</div>
+
+</div>
+<hr>
+<div class="row justify-content-evenly  p-2">
+	<div class="col-md-3 col-5">
+		<img src="D:\Bootstrep.projects\images\sheep.jpg" class="img-fluid rounded"  alt="">
+		<h4 class="text-center">Sheep(भेड़ )</h4>
+	</div>
+	<div class="col-md-7 ">
+		<p>भेड़ एक प्रकार का पालतू पशु है। इसे मांस, ऊन और दूध के लिए पाला जाता है। भारतवर्ष में करीब 40 नस्ल की भेड़ पाई जाती है</p>
+		<a class="btn btn-primary" href="Sheep.html" role="button">Learn more</a>
+
+	</div>
+
+</div>
+<hr>
+<div class="row justify-content-evenly  p-2">
+	<div class="col-md-3 col-5">
+		<img src="D:\Bootstrep.projects\images\hean.jpg" class="img-fluid rounded"  alt="">
+		<h4 class="text-center">Hen(मुर्गी )</h4>
+	</div>
+	<div class="col-md-7 ">
+		<p>मुर्गी (पुलिंग: मुर्गा) एक पक्षी है जो कि रज्जुकी श्रेणी का प्राणी है। मुर्गी या मुर्गा पक्षी वर्ग के प्राणी है।  नर को मुर्गा व मादा को मुर्गी कहा जाता है। इन को वैज्ञानिक रूप से गैलस गैलस डोमेस्टिकस (Gallus Gallus Domesticus) के नाम से जाना जाता है। यह मुख्य रूप से लाल जंगल फ्लो (Jungleflow) की उप-प्रजाति है। लाल जंगली मुर्गी प्रजाति आज भी जंगल में रहती है। यह एक अंडा देने वाला पक्षी है, कम उड़ पाता है, इसका मांस खाने में स्वादिष्ट होता है। किसी समय में यह जंगल में स्वतंत्रता से विचरण करने वाले पक्षी थे। मुर्गी रज्जुकी जीवों के समूह का हिस्सा है। जिसमें उन कशेरुकी जीवो को रखा जाता है जो अपने जीवन काल में कभी न कभी अकशेरुकी रहे हो।ै</p>
+		<a class="btn btn-primary" href="hean.html" role="button">Learn more</a>
+
+	</div>
+
+</div>
+<hr>
+<div class="row justify-content-evenly  p-2">
+	<div class="col-md-3 col-5">
+		<img src="D:\Bootstrep.projects\images\camel.jpg" class="img-fluid  rounded"  alt="">
+		<h4 class="text-center">Camel(ऊँट  )</h4>
+	</div>
+	<div class="col-md-7 ">
+		<p>ऊँट कैमुलस जीनस के अंतर्गत आने वाला एक खुरधारी जीव है। अरबी ऊँट के एक कूबड़ जबकि बैक्ट्रियन ऊंट के दो कूबड़ होते हैं। अरबी ऊँट पश्चिमी एशिया के सूखे रेगिस्तान क्षेत्रों के जबकि बैकट्रियन ऊँट मध्य और पूर्व एशिया के मूल निवासी हैं। इसे रेगिस्तान का जहाज भी कहते हैं। यह रेतीले तपते मैदानों में इक्कीस इक्कीस दिन तक बिना पानी पिये चल सकता है। इसका उपयोग सवारी और सामान ढोने के काम आता है। यह 7 दिन बिना पानी पिए रह सकता है</p>
+		<a class="btn btn-primary" href="Camel.html" role="button">Learn more</a>
+
+	</div>
+
+</div>
+
+<hr>
+<div class="row justify-content-evenly  p-2">
+	<div class="col-md-3 mb-2 col-5">
+		<img src="D:\Bootstrep.projects\images\hores.jpg " class="img-fluid rounded"  alt="">
+		<h4 class="text-center">Horse(घोड़ा  )</h4>
+	</div>
+	<div class="col-md-7 ">
+		<p>घोड़ा या अश्व (Equus ferus caballus; ऐक़्वस फ़ेरस कैबेलस) ऐक़्वस फ़ेरस (Equus ferus) की दो अविलुप्त उपप्रजातियों में से एक हैं। वह एक विषम-उंगली खुरदार स्तनधारी हैं, जो अश्ववंश (ऐक़्वडी) कुल से ताल्लुक रखता हैं। घोड़े का पिछले ४५ से ५५ मिलियन वर्षों में एक छोटे बहु-उंगली जीव, ऐओहिप्पस (Eohippus) से आज के विशाल, एकल-उंगली जानवर में क्रम-विकास हुआ हैं। मनुष्यों ने ४००० ईसा पूर्व के आसपास घोड़ों को पालतू बनाना शुरू कर दिया, और उनका पालतूकरण ३००० ईसा पूर्व से व्यापक रूप से फैला हुआ माना जाता हैं। कैबेलस (caballus) उपप्रजाति में घोड़े पालतू बनाएँ जाते हैं, यद्यपि कुछ पालतू आबादियाँ वन में रहती हैं निरंकुश घोड़ो के रूप में। ये निरंकुश आबादियाँ असली जंगली घोड़े नहीं हैं, क्योंकि यह शब्द उन घोड़ो को वर्णित करने के लिए प्रयुक्त होता हैं जो कभी पालतू बनाएँ ही नहीं गएँ हो, जैसे कि विलुप्तप्राय शेवालस्की का घोड़ा, जो एक अलग उपप्रजाति हैं और बचा हुआ केवल एकमात्र असली जंगली घोड़ा हैं।</p>
+		<a class="btn btn-primary" href="hores.html" role="button">Learn more</a>
+
+	</div>
+
+</div>
+<!--service page codding-->
+
+<div id="scrollspyHeading4" class="row justify-content-evenly  mt-4   bg-warning-subtle ">
+
+             <h3 class="text-center mt-3"  >  Services </h3>
+
+
+
+            <figure class="text-center">
+  <blockquote class="blockquote">
+    <p id="scrollspyHeading5">We are Providing you the best Services here.</p>
+  </blockquote>
+  <figcaption id="scrollspyHeading6" class="blockquote-footer">
+    Thank you for <cite title="Source Title">visiting our website</cite>
+  </figcaption>
+</figure>
+<hr>
+
+
+
+       <div class="col-md-3 mt-5 mb-5     text-center ">
+	        <h3><i class="bi bi-bar-chart"></i></h3>
+	        <h4 class="">Farming Business</h4>
+			<p class=""> Yousing my Website you can easily  
+			understand Animals Farming. and using Farming knowlege
+			you can grow your business.
+			
+</p>
+       </div>
+	   <div class="col-md-3 mt-5  mb-5    text-center">
+	   <h3> <i class="bi bi-heart-fill"></i></h3>
+	        <h4  id="" >Support</h4>
+			<p>If you are litelbit interested and you 
+			   need a Support . To build our own business than 
+			   Please Contect Us We will definataly help you.
+			 </p>
+       </div>
+	   <div class="col-md-3 mt-5 mb-5    text-center">
+	         <h3> <i class="bi bi-bank "></i> </h3>
+	        <h4>Banking Lons</h4>
+			<p>We are helping you for Farming Lonas  
+			process. and Farming Scimeas So please get in toch
+			 . Thank you
+			</p>
+       </div>
+	   <hr>
+	   <p  class=" text-center"> if you Have any query Please we all are with you
+	    Please Contect Us</p>
+
+</div>
+<!--contect page codding-->
+<div  id="scrollspyHeading" class="row justify-content-center mt- mb-  text-white bg-secondary">
+	<div class="col-md-7 mt-2 mb-3">
+	<h3 >Get in touch</h3>
+		<form>
+			 
+  <div class="mb-3 ">
+    <label for="Name" class="form-label">Full Name</label>
+    <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+    
+  </div>
+
+<div class="mb-3 ">
+    <label for="name" class="form-label">Contect.no</label>
+    <input type="name" class="form-control" id="Name" aria-describedby="emailHelp">
+    
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+  </div>
+ <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+  
+ 
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+	</div>
+	<div class="col-md-3 mt-2 mb-3  text-white bg-primary">
+		<h5 id="scrollspyHeading7" class="mt-2">Contect Us</h5>
+		<hr>
+       
+		<p class="text-start p-1"> <i class="bi bi-geo-fill"></i> Address: 198 East 21th Strat,<br> suite 721 New york NY 10015
+        </p>
+		<hr>
+		<p class="text-start  p-2"> <i class="bi bi-telephone text-start"> </i> Contect :- 92xxxxx78 s</p><hr>
+		<p class="text-start  p-2"> <i class="bi bi-envelope text-start"> </i>Email :- @email.com </p><hr>
+		<p class="text-start  p-2"> <i class="bi bi-browser-safari text-start"> </i> website :- namecom </p><hr>
+	</div>
+</div>
+<div class="row bg-dark text-white">
+	<div class="col-md-12">
+	   <h4 class="text-center mt-2 ">Follow Us</h4>
+		<h3 class="text-center"  class="text-white"><a href="#"  class="text-white"><i class="bi bi-facebook"></i></a> <a href="#"class="text-white"><i class="bi bi-linkedin"></i></a> <a href="https://github.com/Aashish-Damodare" class="text-white"><i class="bi bi-github"></i></a> <a class="text-white"href="#"><i class="bi bi-threads"></i></a></h3> 
+	</div>
+</div>
+
+
+
+
+
+<!--conrener-->
+</div>
+
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+  
